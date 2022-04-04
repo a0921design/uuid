@@ -128,6 +128,56 @@ footer {
 
 /* index */
 
+.photograph {
+  position: relative;
+}
+
+.slide01 {
+  opacity: 1;
+  animation: slide01 12s infinite;
+  animation-delay: 2s;
+}
+
+@keyframes slide01 {
+
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.slide02 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  opacity: 0;
+  animation: slide02 12s infinite;
+  animation-delay: 2s;
+}
+
+@keyframes slide02 {
+
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
 /* info */
 
 #info section span {
@@ -366,7 +416,9 @@ td span {
 
   /* info */
 
-
+  #info main li {
+    font-size: 12px;
+  }
 
   /* about */
 
