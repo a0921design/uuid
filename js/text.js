@@ -6,7 +6,7 @@ const text = baffle('.uuidTitle');
 	text.start();
 	text.reveal(80000);
 
-	const text1 = baffle('.uuidFull');
+	const text1 = baffle('.uuidParts01, .uuidParts02, .uuidParts03');
 	text1.set({
 		characters : 'qwertyuiopasdfgh8613611888zpxzVpasdfh86136░█▒ ░░░█▓ >░░ ▓/▒█▓ █ █>█▒sayg▒ ░░░█▓ >yf',
 		speed: 120
