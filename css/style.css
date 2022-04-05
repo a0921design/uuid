@@ -194,6 +194,22 @@ footer {
 
 /* concept */
 
+#concept h2 {
+  font-size: 10vw;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+}
+
+#concept h3 {
+  font-size: 3.6vw;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+}
+
+#concept p {
+  text-align: center;
+}
+
 /* about */
 
 #about section {
@@ -359,6 +375,12 @@ td span {
   
   main {
     margin: 0 4%;
+  }
+
+  /* concept */
+
+  #concept h3 {
+    font-size: 4.7vw;
   }
 
 }
