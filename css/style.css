@@ -185,6 +185,35 @@ footer {
   }
 }
 
+/* slider */
+
+.slider_btn {
+  display: flex;
+  position: absolute;
+  z-index: 10;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.slideBtn {
+  width: 12px;
+  height: 12px;
+  border: 1px solid #333;
+  background: #fff;
+  opacity: 0.7;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.slideBtn:hover {
+  opacity: 0.2;
+}
+
 /* info */
 
 #info section span {
@@ -214,13 +243,13 @@ footer {
 
 #about section {
   display: flex;
-  gap: 40px;
+  gap: 72px;
 }
 
 /* table */
 
 table {
-  max-width: 600px;
+  max-width: 500px;
   width: 100%;
 }
 
@@ -383,6 +412,13 @@ td span {
     font-size: 4.7vw;
   }
 
+  /* about */
+
+  #about section {
+    flex-direction: column;
+    gap: 0;
+  }
+
 }
 
 @media screen and (max-width:599px) {
@@ -450,11 +486,6 @@ td span {
   }
 
   /* about */
-
-  #about section {
-    flex-direction: column;
-    gap: 0;
-  }
 
   th,td {
     font-size: 12px;
