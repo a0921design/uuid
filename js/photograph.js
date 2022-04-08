@@ -1,42 +1,104 @@
-// ボタン定義 //
-
-const btn01 = document.getElementById('slideBtn01');
-const btn02 = document.getElementById('slideBtn02');
-const btn03 = document.getElementById('slideBtn03');
-const btn04 = document.getElementById('slideBtn04');
-
 // スライド画像定義 //
 
-const photo01 = document.getElementsByClassName('slide01');
-const photo02 = document.getElementsByClassName('slide02');
-const photo03 = document.getElementsByClassName('slide03');
-const photo04 = document.getElementsByClassName('slide04');
-
-// ボタン挙動 //
-
-btn01.onclick = function() {
-  btn02,btn03,btn04.classList.remove('click');
-  btn01.classList.add('click');
-};
-
-btn02.onclick = function() {
-  btn01,btn03,btn04.classList.remove('click');
-  btn02.classList.add('click');
-};
-
-btn03.onclick = function() {
-  btn03.classList.add('click');
-  btn01,btn02,btn04.classList.remove('click');
-};
-
-btn04.onclick = function() {
-  btn04.classList.add('click');
-  btn01,btn02,btn03.classList.remove('click');
-};
+const photo01 = document.getElementById('slide01');
+const photo02 = document.getElementById('slide02');
+const photo03 = document.getElementById('slide03');
+const photo04 = document.getElementById('slide04');
+const photoSp01 = document.getElementById('slideSp01');
+const photoSp02 = document.getElementById('slideSp02');
+const photoSp03 = document.getElementById('slideSp03');
+const photoSp04 = document.getElementById('slideSp04');
 
 // ホバー時の一時停止 //
 
-
-
 // アニメーション設定 //
+
+photo01.animate (
+  {
+    opacity: [1,0,0,0,0,0,1]
+  },
+  { 
+    delay: 1000,
+    duration: 26000,
+    iterations: Infinity
+  }
+);
+
+photo02.animate (
+  {
+    opacity: [0,1,1,1,0,0,0]
+  },
+  {
+    delay: 1000,
+    duration: 26000,
+    iterations: Infinity
+  }
+);
+
+photo03.animate (
+  {
+    opacity: [0,0,0,1,1,1,0]
+  },
+  {
+    delay: 1000,
+    duration: 26000,
+    iterations: Infinity
+  }
+);
+
+photo04.animate (
+  {
+    opacity: [0,0,0,0,1,1,0]
+  },
+  {
+    delay: 1000,
+    duration: 26000,
+    iterations: Infinity
+  }
+);
+
+photoSp01.animate (
+  {
+    opacity: [1,0,0,0,0,0,1]
+  },
+  { 
+    delay: 1000,
+    duration: 26000,
+    iterations: Infinity
+  }
+);
+
+photoSp02.animate (
+  {
+    opacity: [0,1,1,1,0,0,0]
+  },
+  {
+    delay: 1000,
+    duration: 26000,
+    iterations: Infinity
+  }
+);
+
+photoSp03.animate (
+  {
+    opacity: [0,0,0,1,1,1,0]
+  },
+  {
+    delay: 1000,
+    duration: 26000,
+    iterations: Infinity
+  }
+);
+
+photoSp04.animate (
+  {
+    opacity: [0,0,0,0,1,1,0]
+  },
+  {
+    delay: 1000,
+    duration: 26000,
+    iterations: Infinity
+  }
+);
+
 
