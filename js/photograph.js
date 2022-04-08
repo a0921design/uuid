@@ -26,7 +26,7 @@ photo01.animate (
 
 photo02.animate (
   {
-    opacity: [0,1,1,1,0,0,0]
+    opacity: [0,1,1,0,0,0,0]
   },
   {
     delay: 1000,
@@ -37,7 +37,7 @@ photo02.animate (
 
 photo03.animate (
   {
-    opacity: [0,0,0,1,1,1,0]
+    opacity: [0,0,0,1,1,0.5,0]
   },
   {
     delay: 1000,
@@ -48,7 +48,7 @@ photo03.animate (
 
 photo04.animate (
   {
-    opacity: [0,0,0,0,1,1,0]
+    opacity: [0,0,0,0,0.5,1,1]
   },
   {
     delay: 1000,
@@ -70,7 +70,7 @@ photoSp01.animate (
 
 photoSp02.animate (
   {
-    opacity: [0,1,1,1,0,0,0]
+    opacity: [0,1,1,0,0,0,0]
   },
   {
     delay: 1000,
@@ -81,7 +81,7 @@ photoSp02.animate (
 
 photoSp03.animate (
   {
-    opacity: [0,0,0,1,1,1,0]
+    opacity: [0,0,0,1,1,0.5,0]
   },
   {
     delay: 1000,
@@ -92,7 +92,7 @@ photoSp03.animate (
 
 photoSp04.animate (
   {
-    opacity: [0,0,0,0,1,1,0]
+    opacity: [0,0,0,0,0,1,1]
   },
   {
     delay: 1000,
